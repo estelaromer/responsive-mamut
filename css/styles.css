@@ -1,0 +1,10 @@
+@import url('reset.css');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Verdana, sans-serif;
+	font-size: 100%; /*Asi el usuario decide el tamaño de la fuente*/
+}
