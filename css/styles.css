@@ -60,3 +60,19 @@ main nav ul li:hover a{
 	font-weight: bold;
 }
 
+main section{
+	padding: 15px 0;
+}
+
+h1{
+	font-size: 130%;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+main section p{
+	padding-bottom: 15px;
+}
+main section div img{
+	max-width: 100%;
+}
