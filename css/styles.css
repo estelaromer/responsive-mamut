@@ -8,3 +8,27 @@ body{
 	font-family: Verdana, sans-serif;
 	font-size: 100%; /*Asi el usuario decide el tamaño de la fuente*/
 }
+
+/*Styles for mobile view*/
+
+header{
+	background-color: #000;
+}
+
+header .logo{
+	color: #fff;
+	font-size: 105%;
+	text-align: center;
+	padding: 15px 0;
+}
+
+footer{
+	background-color: #000;
+}
+
+footer p{
+	text-align: center;
+	color: #fff;
+	font-size: 70%;
+	padding: 15px 0;
+}
