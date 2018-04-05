@@ -9,6 +9,17 @@ body{
 	font-size: 100%; /*Asi el usuario decide el tamaño de la fuente*/
 }
 
+.row{
+	max-width: 100%
+}
+
+.row::after{
+	display: block;
+	height: 0;
+	clear:  both;
+	content: "";
+}
+
 /*Styles for mobile view*/
 
 header{
@@ -86,4 +97,40 @@ h2{
 	font-size: 125%;
 	font-weight: bold;
 	padding-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px){
+	.col-md-6{
+		float: left;
+		width: 50%;
+	}
+
+	.col-md-12{
+		float: left;
+		width: 100%;
+	}
+
+	main nav,
+	main section,
+	main aside{
+		padding: 0 1%;
+	}
+
+	main section{
+		padding-bottom: 1%;
+	}
+
+	main aside section{
+		float: left;
+		max-width: 49%;
+	}
+
+	main aside section:last-child{
+		float: right;
+	}
+	header .logo, 
+	footer p{
+		text-align: left;
+		padding-left: 1%;
+	}
 }
